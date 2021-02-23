@@ -162,7 +162,7 @@ The following tables lists the configurable parameters of the Keycloak chart and
 |------------------------------------|-----------------------------------------------------------------------------------|--------------------------------|
 | `service.type`                     | Kubernetes service type                                                           | `LoadBalancer`                 |
 | `service.port`                     | Service HTTP port                                                                 | `80`                           |
-| `service.nodePort`                 | Service HTTPS port                                                                | `443`                          |
+| `service.httpsPort`                | Service HTTPS port                                                                | `443`                          |
 | `service.nodePorts.http`           | Kubernetes HTTP node port                                                         | `""`                           |
 | `service.nodePorts.https`          | Kubernetes HTTPS node port                                                        | `""`                           |
 | `service.clusterIP`                | Keycloak service clusterIP IP                                                     | `None`                         |
